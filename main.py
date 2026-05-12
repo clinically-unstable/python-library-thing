@@ -1,10 +1,8 @@
 import pygame
 
-import pygame
-
 class Cat:
     def __init__(self):
-        # store both images
+
         self.original_image = pygame.image.load("adam.png")
         self.skill_image = pygame.image.load("Apple_Cat.jpg")
 
